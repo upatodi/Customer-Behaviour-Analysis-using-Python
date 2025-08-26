@@ -1,14 +1,51 @@
-# Customer-Behaviour-Analysis-using-Python
-Customer Behavior Analysis is a valuable process that empowers businesses to make data-driven decisions, enhance customer experiences, and remain competitive in a dynamic market. Below is the process we can follow for the task of Customer Behaviour Analysis:
 
-1.Collect data related to customer interactions. It can include purchase history, website visits, social media engagement, customer feedback, and more.
+# E-Commerce Customer Behavior Analysis
 
-2.Identify and address data inconsistencies, missing values, and outliers to ensure the data’s quality and accuracy.
+This project analyzes customer behavior data from an e-commerce platform using **Python, Pandas, Plotly, and Scikit-learn**.  
+It demonstrates exploratory data analysis (EDA), customer segmentation, churn prediction, and visualization.
 
-3.Calculate basic statistics like mean, median, and standard deviation to summarize data.
+##  Project Workflow
 
-4.Create visualizations such as histograms, scatter plots, and bar charts to explore trends, patterns, and anomalies in the data.
+1. **Data Exploration & Cleaning**
+   - Analyzed dataset of 500 customers with demographics, browsing, and purchase behavior.
+   - Summary statistics using `pandas`.
 
-5.Use techniques like clustering to group customers based on common behaviours or characteristics.
+2. **Exploratory Data Analysis**
+   - Histograms and bar plots for age, gender, and device usage.
+   - Grouped analysis by gender and device type.
 
-So, the process starts with collecting data based on customer behaviour on a platform. I found an ideal dataset for this task which is given in the file section.
+3. **Customer Segmentation**
+   - CLV (Customer Lifetime Value) based segmentation: Low, Medium, High Value customers.
+   - RFM (Recency, Frequency, Monetary) modeling with clustering using KMeans.
+
+4. **Churn Analysis**
+   - Defined churn (customers with 0 purchases).
+   - Built a **Logistic Regression model** to predict churn probability.
+   - Evaluated performance with accuracy and classification metrics.
+
+5. **Business Insights**
+   - Identified device usage patterns for purchases.
+   - Suggested retention strategies for high-churn customer groups.
+
+##  Tech Stack
+
+- Python (pandas, numpy, matplotlib, seaborn)
+- Plotly (interactive dashboards)
+- Scikit-learn (Logistic Regression, KMeans)
+- Jupyter Notebook
+
+##  Files
+
+- `ecommerce_customer_analysis.ipynb` → Full project notebook with code, visualizations, and results.
+- `ecommerce_customer_data.csv` → Dataset (simulated).
+- `README.md` → Project overview.
+
+##  Key Learnings
+
+- End-to-end **customer analytics pipeline** from raw data → insights → predictive modeling.
+- Practical demonstration of **churn analysis, segmentation, and clustering**.
+- Showcasing EDA + ML skills for **Data Analyst / Data Scientist** roles.
+
+---
+
+✨ Author: *Unnati Patodi*
